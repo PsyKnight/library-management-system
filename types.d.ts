@@ -13,3 +13,23 @@ interface Books {
   summary: string;
   isLoaned?: boolean;
 }
+
+// interface User {
+//   id: string;
+//   fullName: string;
+//   email: string;
+//   universityId: string;
+//   universityCard: string;
+//   status: "PENDING" | "APPROVED" | "REJECTED" | null;
+//   role: "USER" | "ADMIN" | null;
+//   lastUserActivity: string | null;
+//   createdAt: Date | null;
+// }
+
+interface AuthCredentials {
+  fullName: string;
+  email: string;
+  password: string;
+  universityId: string;
+  universityCard: string;
+}
